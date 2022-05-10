@@ -12,16 +12,27 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
+### Tronald Dump: 
+* Documentation: https://docs.tronalddump.io/
+* API: https://api.tronalddump.io
+  
+### Dictionary: 
+* Documentation: https://dictionaryapi.dev/
+* API: https://api.dictionaryapi.dev/api
+* 
+### Summary of Program:
+From Tronald Dump API takes a random Donald Trump quote. Feeds each word of the quote into the Dictionary API to receive the phonetic spelling of each ELIGIBLE word in the quote. concatenates all these phonetic spellings into a new string that is printed alongside the original quote for comparison. 
 
-Summary of Program:
-
-Most Challenging topic in the course:
+### Most Challenging topic in the course:
+All of pygame was difficult because of how much documentation was necessary to read to understand what was happening.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ None
 
 ## REFERENCES:
- < List any outside resources used >
+ https://docs.tronalddump.io/
+ https://dictionaryapi.dev/
+ https://docs.python-requests.org/en/latest/
 
 ## MISCELLANEOUS COMMENTS:
  < Anything you would like the grader to know >
